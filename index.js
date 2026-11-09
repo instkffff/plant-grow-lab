@@ -1,16 +1,24 @@
-import { startHttpServer } from './devices/modbusProxy/server.js'
-import { startServer } from './devices/modbusProxy/modbus/modbusSlave.js'
+import { startHttpServer as PH } from './devices/plantLight/server.js'
+import { startServer as PS } from './devices/plantLight/modbus/modbusSlave.js'
+
+import { startHttpServer as EH } from './devices/env/server.js'
+import { startServer as ES } from './devices/env/modbus/modbusSlave.js'
+
 import {
     initMqtt,
     mqttPublish,
     getMqttClient,
 } from './mqtt/mqtt.js';
 
-// modbusProxy
+// PlantLight
 
-startHttpServer();
-startServer();
+PH();
+PS();
+
+// ENV
+EH();
+ES();
 
 // system
 
-initMqtt();
+// initMqtt();

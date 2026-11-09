@@ -3,13 +3,11 @@ import { insertValue } from '../sqlite/insert.js';
 import { port, System } from '../config.js';
 import ModbusRTU from 'modbus-serial';
 
-const MAX_ADDR = (unitID) => (unitID === 13 || unitID === 14) ? 6 : 40;
-
 function checkParams(unitID, addr, quantity = 1) {
-    if (unitID < 1 || unitID > 14) throw new Error("Illegal Data Address");
-    if (addr < 0 || (addr + quantity) > MAX_ADDR(unitID)) throw new Error("Illegal Data Address");
-    const tableName = System[unitID - 1];
-    if (!tableName) throw new Error("Server Device Failure");
+    const entry = System[unitID];
+    if (!entry) throw new Error("Server Device Failure");
+    const [tableName, maxAddr] = entry;
+    if (addr < 0 || (addr + quantity) > maxAddr) throw new Error("Illegal Data Address");
     return tableName;
 }
 
@@ -63,11 +61,10 @@ const vector = {
 };
 
 function initializeDatabaseCheck() {
-    System.forEach((table, i) => {
-        if (!table) return;
-        try { readValue(table, 1); console.log([i + 1, 'ok']); }
-        catch (e) { console.warn([i + 1, e]); }
-    });
+    for (const [unitID, [tableName]] of Object.entries(System)) {
+        try { readValue(tableName, 1); console.log([unitID, 'ok']); }
+        catch (e) { console.warn([unitID, e]); }
+    }
 }
 
 function startServer(host = '0.0.0.0', serverPort = port) {

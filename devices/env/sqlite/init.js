@@ -1,5 +1,6 @@
 import Database from 'better-sqlite3';
 import path from 'node:path';
+import { System } from '../config.js';
 
 // 获取当前脚本所在文件夹的绝对路径
 const dbPath = path.join(import.meta.dirname, 'control.db');
@@ -15,10 +16,10 @@ const init = db.transaction((tables) => {
   }
 });
 
-init({
-  VFDP: 6, VFDF: 6,
-  PF1S: 40, PF2S: 40, PF3S: 40, PF4S: 40, PF5S: 40,
-  PF6S: 40,
-  PF1W: 40, PF2W: 40, PF3W: 40, PF4W: 40, PF5W: 40,
-  PF6W: 40
-});
+// 根据 System 配置动态生成表初始化参数
+const tables = Object.values(System).reduce((acc, [name, count]) => {
+  acc[name] = count;
+  return acc;
+}, {});
+
+init(tables);
