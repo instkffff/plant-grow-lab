@@ -1,74 +1,94 @@
-function genListK(num) {
-    const list = []
-    for (let i = 1; i <= num; i++) {
-        list.push('K' + i)
-    }
-    return list
-}
-
-function genListF(num) {
-    const list = []
-    for (let i = 1; i <= num; i++) {
-        list.push('F' + i)
-    }
-    return list
-}
-
-const PF1 = genListK(20)
-const PF2 = genListK(16)
-const PF3 = genListK(12)
-const PF4 = genListK(12)
-const PF5 = genListK(4)
-const PF6 = genListK(8)
-const VFDF = genListF(6)
-const VFDK = genListK(6)
-
-const PF1S = genListK(40)
-const PF1W = genListF(40)
-const PF2S = genListK(40)
-const PF2W = genListF(40)
-const PF3S = genListK(40)
-const PF3W = genListF(40)
-const PF4S = genListK(40)
-const PF4W = genListF(40)
-const PF5S = genListK(40)
-const PF5W = genListF(40)
-const PF6S = genListK(40)
-const PF6W = genListF(40)
-
-const S1 = [
-    { name: 'PF1', keys: PF1 },
-    { name: 'PF3', keys: PF3 },
-]
-const S2 = [
-    { name: 'PF2', keys: PF2 },
-    { name: 'PF4', keys: PF4 },
-]
-const S3 = [
-    { name: 'PF5', keys: PF5 },
-    { name: 'PF6', keys: PF6 },
-    { name: 'VFDF', keys: VFDF },
-    { name: 'VFDK', keys: VFDK },
+const SENSOR = [
+    'CO2', 'CO2CAL', 'PA1', 'PA2',
+    'T1', 'H1', 'TCAL1', 'HCAL1',
+    'T2', 'H2', 'TCAL2', 'HCAL2'
 ]
 
-const CONSOLE = [
-    { name: 'PF1S', keys: PF1S },
-    { name: 'PF1W', keys: PF1W },
-    { name: 'PF2S', keys: PF2S },
-    { name: 'PF2W', keys: PF2W },
-    { name: 'PF3S', keys: PF3S },
-    { name: 'PF3W', keys: PF3W },
-    { name: 'PF4S', keys: PF4S },
-    { name: 'PF4W', keys: PF4W },
-    { name: 'PF5S', keys: PF5S },
-    { name: 'PF5W', keys: PF5W },
-    { name: 'PF6S', keys: PF6S },
-    { name: 'PF6W', keys: PF6W },
-    { name: 'VFDF', keys: VFDF },
-    { name: 'VFDK', keys: VFDK },
+const VALVE = [
+    'W1', 'W2'
 ]
 
-const mqttBroker = 'mqtt://192.168.50.52:1883';
+const NEWAIR = [
+    { name: 'SENSOR', keys: SENSOR },
+    { name: 'VALVE', keys: VALVE },
+]
+
+const SSHUM = [
+    'PV', 'SV', 'OUTB', 'P', 'K',
+    'HSET', 'TSET', 'HCAL', 'TCAL',
+    'ST0', 'ST1', 'ST2', 'ST3', 'ST4', 'ST8',
+    'H', 'T',
+    'E0', 'E1', 'E2', 'E3', 'E4', 'E5', 'E6',
+    'E7', 'E8', 'E9', 'E10', 'E11', 'E12',
+    'WR', 'WCSET', 'WOSET', 'WT',
+    'K1', 'K2', 'K3', 'K4'
+]
+
+const HEATDEHUM = [
+    { name: 'S1', keys: SSHUM },
+    { name: 'S2', keys: SSHUM },
+]
+
+const SSCOOL = [
+    'OPEN', 'CLOSE', 'RESET', 'SLIENT',
+    'FORCEDF1', 'FORCEDF2', 'FORCEDF3', 'FORCEDF4', 
+    'FORCEDF5', 'FORCEDF6', 'FORCEDF7', 'FORCEDF8',
+    'ST0', 'ST1', 'ST2', 'ST3', 'ST4', 'ST8', 'ST9', 'ST10', 'ST11', 'ST15',
+    'MODE', 'MODER', 'TSET', 'TCOOL', 'WSTC', 'K',
+    'HSET', 'WSET', 'WSTh', 'HWET', 'TWET',
+    'E0', 'E9', 'E11',
+    'K1', 'K2', 'T', 'TCAL', 'HCAL'
+]
+
+const COOLHUM = [
+    { name: 'S1', keys: SSCOOL },
+    { name: 'S2', keys: SSCOOL },
+    { name: 'S3', keys: SSCOOL },
+    { name: 'S4', keys: SSCOOL },
+    { name: 'S5', keys: SSCOOL },
+]
+
+const GT = ['ID', 'MODE', 'K', 'R', 'B', 'W', 'Y', 'M', 'D', 'HH', 'MM']
+
+const PLANT = [
+    { name: 'G11', keys: GT },
+    { name: 'G12', keys: GT },
+    { name: 'G13', keys: GT },
+    { name: 'G21', keys: GT },
+    { name: 'G22', keys: GT },
+    { name: 'G23', keys: GT },
+    { name: 'G31', keys: GT },
+    { name: 'G32', keys: GT },
+    { name: 'G33', keys: GT },
+    { name: 'G41', keys: GT },
+    { name: 'G42', keys: GT },
+    { name: 'G43', keys: GT },
+]
+
+const ENV = [
+    'H1', 'H2', 'H3', 'H4', 'H5', 'H6',
+    'T1', 'T2', 'T3', 'T4', 'T5', 'T6',
+    'CO2', 'PA1', 'PA2'
+]
+
+const SETTING = [
+    'TSET', 'HSET', 'KS', 'F'
+]
+
+const EQ = [
+    'COOL1', 'COOL2', 'COOL3', 'COOL4', 'COOL5',
+    'HUM1', 'HUM2', 'HUM3', 'HUM4', 'HUM5',
+    'DEHUM1', 'DEHUM2',
+    'WASH1', 'WASH2', 'WASH3', 'WASH4', 'WASH5'
+]
+
+const ENVSYSTEM = [
+    { name: 'ENV', keys: ENV },
+    { name: 'SETTING', keys: SETTING },
+    { name: 'EQ', keys: EQ },
+]
+
+const mqttBroker = 'mqtt://192.168.50.127:1883';
 
 const reqWrite = '/neuron/system/write/req';
 
@@ -76,4 +96,4 @@ const respWrite = '/neuron/system/write/resp';
 
 const main = '/neuron/system';
 
-export { S1, S2, S3, CONSOLE, mqttBroker, reqWrite, respWrite, main }
+export { NEWAIR, HEATDEHUM, COOLHUM, PLANT, ENVSYSTEM, mqttBroker, reqWrite, respWrite, main }

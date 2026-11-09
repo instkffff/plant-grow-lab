@@ -1,13 +1,14 @@
 import Database from 'better-sqlite3';
-import { S1, S2, S3, CONSOLE } from '../config.js';
+import { NEWAIR, HEATDEHUM, COOLHUM, PLANT, ENVSYSTEM, mqttBroker, reqWrite, respWrite, main } from '../config.js';
 
 const db = new Database('control_system.db');
 
 function initDatabase() {
-    db.exec('CREATE TABLE IF NOT EXISTS S1 (name TEXT PRIMARY KEY, value TEXT)');
-    db.exec('CREATE TABLE IF NOT EXISTS S2 (name TEXT PRIMARY KEY, value TEXT)');
-    db.exec('CREATE TABLE IF NOT EXISTS S3 (name TEXT PRIMARY KEY, value TEXT)');
-    db.exec('CREATE TABLE IF NOT EXISTS "CONSOLE" (name TEXT PRIMARY KEY, value TEXT)');
+    db.exec('CREATE TABLE IF NOT EXISTS NEWAIR (name TEXT PRIMARY KEY, value TEXT)');
+    db.exec('CREATE TABLE IF NOT EXISTS HEATDEHUM (name TEXT PRIMARY KEY, value TEXT)');
+    db.exec('CREATE TABLE IF NOT EXISTS COOLHUM (name TEXT PRIMARY KEY, value TEXT)');
+    db.exec('CREATE TABLE IF NOT EXISTS PLANT (name TEXT PRIMARY KEY, value TEXT)');
+    db.exec('CREATE TABLE IF NOT EXISTS ENVSYSTEM (name TEXT PRIMARY KEY, value TEXT)');
 
     function insertTable(tableName, entries) {
         const stmt = db.prepare(`INSERT OR REPLACE INTO "${tableName}" (name, value) VALUES (?, ?)`);
@@ -18,10 +19,11 @@ function initDatabase() {
         });
     }
 
-    insertTable('S1', S1);
-    insertTable('S2', S2);
-    insertTable('S3', S3);
-    insertTable('CONSOLE', CONSOLE);
+    insertTable('NEWAIR', NEWAIR);
+    insertTable('HEATDEHUM', HEATDEHUM);
+    insertTable('COOLHUM', COOLHUM);
+    insertTable('PLANT', PLANT);
+    insertTable('ENVSYSTEM', ENVSYSTEM);
 }
 
 initDatabase();
