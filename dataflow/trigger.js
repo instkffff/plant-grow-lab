@@ -4,6 +4,7 @@ const triggerConfig = [
     { name: 'ENVSET', nodes: ['ENVSYSTEM'], groups: ['SETTING'], keys: [] },
     { name: 'WATER', nodes: ['ENVSYSTEM'], groups: ['EQ'], keys: ['WASH1', 'WASH2', 'WASH3', 'WASH4', 'WASH5'] },
     { name: 'PLANT', nodes: ['PLANT'], groups: ['G11', 'G12', 'G13', 'G21', 'G22', 'G23', 'G31', 'G32', 'G33', 'G41', 'G42', 'G43'], keys: [] },
+    { name: 'SYSSTART', nodes: ['ENVSYSTEM'], groups: ['SETTING'], keys: ['KS'] },
 ]
 
 const asArray = (v) => (Array.isArray(v) ? v : [])
@@ -29,4 +30,4 @@ const makeTrigger = ({ name, ...config }) => {
 const triggers = {}
 triggerConfig.forEach(cfg => { triggers[cfg.name] = makeTrigger(cfg) })
 
-export const { SENSORENV, SENSORPLANT, ENVSET, WATER, PLANT } = triggers
+export const { SENSORENV, SENSORPLANT, ENVSET, WATER, PLANT, SYSSTART } = triggers
