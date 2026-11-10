@@ -21,4 +21,4 @@ ES();
 
 // system
 
-// initMqtt();
+initMqtt();

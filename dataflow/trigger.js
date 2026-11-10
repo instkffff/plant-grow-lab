@@ -1,9 +1,9 @@
 const triggerConfig = [
-    { name: 'KTrigger', nodes: ['S1', 'S2', 'S3'], groups: ['PF1', 'PF2', 'PF3', 'PF4', 'PF5', 'PF6'], keys: [] },
-    { name: 'FTrigger', nodes: ['CONSOLE'], groups: ['PF1W', 'PF2W', 'PF3W', 'PF4W', 'PF5W', 'PF6W'], keys: [] },
-    { name: 'VTrigger', nodes: ['CONSOLE'], groups: ['VFDK'], keys: [] },
-    { name: 'VKTrigger', nodes: ['CONSOLE'], groups: ['PF1S', 'PF2S', 'PF3S', 'PF4S', 'PF5S', 'PF6S'], keys: [] },
-    { name: 'SFTrigger', nodes: ['S3'], groups: ['VFDF'], keys: [] },
+    { name: 'SENSORENV', nodes: ['NEWAIR'], groups: ['SENSOR'], keys: ['CO2', 'PA1', 'PA2', 'T1', 'T2', 'H1', 'H2'] },
+    { name: 'SENSORPLANT', nodes: ['COOLHUM'], groups: ['S1', 'S2', 'S3', 'S4', 'S5'], keys: ['T', 'H'] },
+    { name: 'ENVSET', nodes: ['ENVSYSTEM'], groups: ['SETTING'], keys: [] },
+    { name: 'WATER', nodes: ['ENVSYSTEM'], groups: ['EQ'], keys: ['WASH1', 'WASH2', 'WASH3', 'WASH4', 'WASH5'] },
+    { name: 'PLANT', nodes: ['PLANT'], groups: ['G11', 'G12', 'G13', 'G21', 'G22', 'G23', 'G31', 'G32', 'G33', 'G41', 'G42', 'G43'], keys: [] },
 ]
 
 const asArray = (v) => (Array.isArray(v) ? v : [])
@@ -29,4 +29,4 @@ const makeTrigger = ({ name, ...config }) => {
 const triggers = {}
 triggerConfig.forEach(cfg => { triggers[cfg.name] = makeTrigger(cfg) })
 
-export const { KTrigger, FTrigger, VTrigger, VKTrigger, SFTrigger } = triggers
+export const { SENSORENV, SENSORPLANT, ENVSET, WATER, PLANT } = triggers

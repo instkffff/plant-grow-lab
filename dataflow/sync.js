@@ -1,34 +1,134 @@
-import { KTrigger, FTrigger, VTrigger, VKTrigger, SFTrigger } from './trigger.js'
+import { SENSORENV, SENSORPLANT, ENVSET, WATER, PLANT } from './trigger.js'
 import { msgMaker } from '../mqtt/msgMaker.js'
-import { dataConvert } from './tools/dataConvert.js'
 
 import { mqttPublish, reqWrite } from '../mqtt/mqtt.js';
 
-/**
- * 同步数据入口函数
- * 流程：
- * 1. 判断数据是否匹配 KTrigger 或 VTrigger 触发条件
- * 2. 匹配则调用 dataConvert 转换数据
- * 3. 转换结果为空则直接返回，不继续后续处理
- * 4. 遍历转换后的数组，逐条通过 msgMaker 构造消息
- * 5. 将消息序列化为 JSON 并通过 mqttPublish 发送
- */
-const syncData = (data) => {
-    // 触发判断：KTrigger 或 VTrigger 满足其一则进入 sync 流程
-    if (KTrigger(data) || VTrigger(data) || SFTrigger(data)) {
-        // 数据转换：将原始数据转为消息数组
-        const convertedData = dataConvert(data);
-        console.log(convertedData)
-        // 转换结果为空时跳过后续处理
-        if (!convertedData || convertedData.length === 0) {
-            return;
+
+/* 
+data example
+{
+    "node": "开关",
+    "group": "switch1",
+    "values": { "k1": 1, "k2": 2, "k3": 3, "k4": 4, "k5": 5 }
+} */
+
+function makeMsgTemplate(data, key) {
+    let msg = {
+        node: "ENVSYSTEM",
+        group: "ENV",
+        key: key,
+        value: data.values[key] || 0,
+    }
+    return msg;
+}
+
+function syncData(data) {
+    if (SENSORENV(data)) {
+        /* value key list 'CO2', 'PA1', 'PA2', 'T1', 'T2', 'H1', 'H2' */
+        const envKeys = ['CO2', 'PA1', 'PA2', 'T1', 'T2', 'H1', 'H2'];
+        let msg = {};
+        let json = '';
+        for (const key of envKeys) {
+            if (data.values && data.values[key] !== undefined) {
+                switch (key) {
+                    case 'CO2':
+                        msg = makeMsgTemplate(data, key);
+                        json = JSON.stringify(msgMaker(msg));
+                        mqttPublish(json);
+                        break;
+                    case 'PA1':
+                        msg = makeMsgTemplate(data, key);
+                        json = JSON.stringify(msgMaker(msg));
+                        mqttPublish(json);
+                        break;
+                    case 'PA2':
+                        msg = makeMsgTemplate(data, key);
+                        json = JSON.stringify(msgMaker(msg));
+                        mqttPublish(json);
+                        break;
+                    case 'T1':
+                        msg = makeMsgTemplate(data, 'T5');
+                        json = JSON.stringify(msgMaker(msg));
+                        mqttPublish(json);
+                        break;
+                    case 'H1':
+                        msg = makeMsgTemplate(data, 'H5');
+                        json = JSON.stringify(msgMaker(msg));
+                        mqttPublish(json);
+                        break;
+                }
+            }
         }
-        // 遍历转换结果，逐条发送消息
-        convertedData.forEach(item => {
-            const message = msgMaker(item);
-            const json = JSON.stringify(message);
-            mqttPublish(reqWrite, json);
-        });
+    }
+
+    if (SENSORPLANT(data)) {
+        switch (data.group) {
+            case 'S1':
+                if (data.values) {
+                    for (const key of Object.keys(data.values)) {
+                        if (key === 'T') {
+                            msg = makeMsgTemplate(data, 'T1');
+                        } else if (key === 'H') {
+                            msg = makeMsgTemplate(data, 'H1');
+                        }
+                        json = JSON.stringify(msgMaker(msg));
+                        mqttPublish(json);
+                    }
+                }
+                break;
+            case 'S2':
+                if (data.values) {
+                    for (const key of Object.keys(data.values)) {
+                        if (key === 'T') {
+                            msg = makeMsgTemplate(data, 'T2');
+                        } else if (key === 'H') {
+                            msg = makeMsgTemplate(data, 'H2');
+                        }
+                        json = JSON.stringify(msgMaker(msg));
+                        mqttPublish(json);
+                    }
+                }
+                break;
+            case 'S3':
+                if (data.values) {
+                    for (const key of Object.keys(data.values)) {
+                        if (key === 'T') {
+                            msg = makeMsgTemplate(data, 'T3');
+                        } else if (key === 'H') {
+                            msg = makeMsgTemplate(data, 'H3');
+                        }
+                        json = JSON.stringify(msgMaker(msg));
+                        mqttPublish(json);
+                    }
+                }
+                break;
+            case 'S4':
+                if (data.values) {
+                    for (const key of Object.keys(data.values)) {
+                        if (key === 'T') {
+                            msg = makeMsgTemplate(data, 'T4');
+                        } else if (key === 'H') {
+                            msg = makeMsgTemplate(data, 'H4');
+                        }
+                        json = JSON.stringify(msgMaker(msg));
+                        mqttPublish(json);
+                    }
+                }
+                break;
+            case 'S5':
+                if (data.values) {
+                    for (const key of Object.keys(data.values)) {
+                        if (key === 'T') {
+                            msg = makeMsgTemplate(data, 'T5');
+                        } else if (key === 'H') {
+                            msg = makeMsgTemplate(data, 'H5');
+                        }
+                        json = JSON.stringify(msgMaker(msg));
+                        mqttPublish(json);
+                    }
+                }
+                break;
+        }
     }
 }
 

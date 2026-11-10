@@ -1,7 +1,6 @@
 const SENSOR = [
     'CO2', 'CO2CAL', 'PA1', 'PA2',
-    'T1', 'H1', 'TCAL1', 'HCAL1',
-    'T2', 'H2', 'TCAL2', 'HCAL2'
+    'T1', 'H1', 'TCAL1', 'HCAL1'
 ]
 
 const VALVE = [

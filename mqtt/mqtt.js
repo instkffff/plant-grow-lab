@@ -4,7 +4,6 @@ import { msgParser, respParser } from './parser.js';
 import { uuidRemove } from '../tools/uuidPool.js';
 import { updateDB } from './updateDB.js';
 import { syncData } from '../dataflow/sync.js';
-import { setVFD } from '../dataflow/setVfd.js';
 
 let client = null;
 
@@ -27,7 +26,6 @@ const handleMain = (msgString) => {
         // dataFlow 处理数据
         syncData(data);
         updateDB(data);
-        setVFD(data);
     } catch (e) {
         console.error('更新数据失败:', e);
     }
