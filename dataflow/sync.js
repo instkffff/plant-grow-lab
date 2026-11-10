@@ -1,8 +1,6 @@
-import { SENSORENV, SENSORPLANT, ENVSET, WATER, PLANT } from './trigger.js'
+import { SENSORENV, SENSORPLANT } from './trigger.js'
 import { msgMaker } from '../mqtt/msgMaker.js'
-
-import { mqttPublish, reqWrite } from '../mqtt/mqtt.js';
-
+import { mqttPublish, reqWrite } from '../mqtt/mqtt.js'
 
 /* 
 data example
@@ -12,124 +10,37 @@ data example
     "values": { "k1": 1, "k2": 2, "k3": 3, "k4": 4, "k5": 5 }
 } */
 
-function makeMsgTemplate(data, key) {
-    let msg = {
-        node: "ENVSYSTEM",
-        group: "ENV",
-        key: key,
-        value: data.values[key] || 0,
+function makeMsg(data, key, value) {
+    return msgMaker({ node: "ENVSYSTEM", group: "ENV", tag: key, value })
+}
+
+function publish(msg) {
+    mqttPublish(reqWrite, JSON.stringify(msg))
+}
+
+function syncEnv(data) {
+    const map = { CO2: 'CO2', PA1: 'PA1', PA2: 'PA2', T1: 'T6', H1: 'H6' }
+    for (const [src, dst] of Object.entries(map)) {
+        if (data.values?.[src] !== undefined) {
+            publish(makeMsg(data, dst, data.values[src]))
+        }
     }
-    return msg;
+}
+
+function syncPlant(data) {
+    const groupNum = data.group?.replace('S', '')
+    if (!groupNum) return
+    const tKey = `T${groupNum}`
+    const hKey = `H${groupNum}`
+    for (const [key, val] of Object.entries(data.values ?? {})) {
+        if (key === 'T') publish(makeMsg(data, tKey, val))
+        else if (key === 'H') publish(makeMsg(data, hKey, val))
+    }
 }
 
 function syncData(data) {
-    if (SENSORENV(data)) {
-        /* value key list 'CO2', 'PA1', 'PA2', 'T1', 'T2', 'H1', 'H2' */
-        const envKeys = ['CO2', 'PA1', 'PA2', 'T1', 'T2', 'H1', 'H2'];
-        let msg = {};
-        let json = '';
-        for (const key of envKeys) {
-            if (data.values && data.values[key] !== undefined) {
-                switch (key) {
-                    case 'CO2':
-                        msg = makeMsgTemplate(data, key);
-                        json = JSON.stringify(msgMaker(msg));
-                        mqttPublish(json);
-                        break;
-                    case 'PA1':
-                        msg = makeMsgTemplate(data, key);
-                        json = JSON.stringify(msgMaker(msg));
-                        mqttPublish(json);
-                        break;
-                    case 'PA2':
-                        msg = makeMsgTemplate(data, key);
-                        json = JSON.stringify(msgMaker(msg));
-                        mqttPublish(json);
-                        break;
-                    case 'T1':
-                        msg = makeMsgTemplate(data, 'T5');
-                        json = JSON.stringify(msgMaker(msg));
-                        mqttPublish(json);
-                        break;
-                    case 'H1':
-                        msg = makeMsgTemplate(data, 'H5');
-                        json = JSON.stringify(msgMaker(msg));
-                        mqttPublish(json);
-                        break;
-                }
-            }
-        }
-    }
-
-    if (SENSORPLANT(data)) {
-        switch (data.group) {
-            case 'S1':
-                if (data.values) {
-                    for (const key of Object.keys(data.values)) {
-                        if (key === 'T') {
-                            msg = makeMsgTemplate(data, 'T1');
-                        } else if (key === 'H') {
-                            msg = makeMsgTemplate(data, 'H1');
-                        }
-                        json = JSON.stringify(msgMaker(msg));
-                        mqttPublish(json);
-                    }
-                }
-                break;
-            case 'S2':
-                if (data.values) {
-                    for (const key of Object.keys(data.values)) {
-                        if (key === 'T') {
-                            msg = makeMsgTemplate(data, 'T2');
-                        } else if (key === 'H') {
-                            msg = makeMsgTemplate(data, 'H2');
-                        }
-                        json = JSON.stringify(msgMaker(msg));
-                        mqttPublish(json);
-                    }
-                }
-                break;
-            case 'S3':
-                if (data.values) {
-                    for (const key of Object.keys(data.values)) {
-                        if (key === 'T') {
-                            msg = makeMsgTemplate(data, 'T3');
-                        } else if (key === 'H') {
-                            msg = makeMsgTemplate(data, 'H3');
-                        }
-                        json = JSON.stringify(msgMaker(msg));
-                        mqttPublish(json);
-                    }
-                }
-                break;
-            case 'S4':
-                if (data.values) {
-                    for (const key of Object.keys(data.values)) {
-                        if (key === 'T') {
-                            msg = makeMsgTemplate(data, 'T4');
-                        } else if (key === 'H') {
-                            msg = makeMsgTemplate(data, 'H4');
-                        }
-                        json = JSON.stringify(msgMaker(msg));
-                        mqttPublish(json);
-                    }
-                }
-                break;
-            case 'S5':
-                if (data.values) {
-                    for (const key of Object.keys(data.values)) {
-                        if (key === 'T') {
-                            msg = makeMsgTemplate(data, 'T5');
-                        } else if (key === 'H') {
-                            msg = makeMsgTemplate(data, 'H5');
-                        }
-                        json = JSON.stringify(msgMaker(msg));
-                        mqttPublish(json);
-                    }
-                }
-                break;
-        }
-    }
+    if (SENSORENV(data)) syncEnv(data)
+    if (SENSORPLANT(data)) syncPlant(data)
 }
 
 export { syncData }
