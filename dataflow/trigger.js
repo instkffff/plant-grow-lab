@@ -8,6 +8,9 @@ const triggerConfig = [
     { name: 'CO2', nodes: ['ENVSYSTEM'], groups: ['ENV'], keys: ['CO2'] },
     { name: 'waterLow', nodes: ['COOLHUM'], groups: ['S1', 'S2', 'S3', 'S4', 'S5'], keys: ['E11'] },
     { name: 'waterHigh', nodes: ['COOLHUM'], groups: ['S1', 'S2', 'S3', 'S4', 'S5'], keys: ['E9'] },
+    { name: 'LightID', nodes: ['PLANT'], groups: ['G11', 'G12', 'G13', 'G21', 'G22', 'G23', 'G31', 'G32', 'G33', 'G41', 'G42', 'G43'], keys: ['ID'] },
+    { name: 'LightMode', nodes: ['PLANT'], groups: ['G11', 'G12', 'G13', 'G21', 'G22', 'G23', 'G31', 'G32', 'G33', 'G41', 'G42', 'G43'], keys: ['MODE'] },
+    { name: 'LightK', nodes: ['PLANT'], groups: ['G11', 'G12', 'G13', 'G21', 'G22', 'G23', 'G31', 'G32', 'G33', 'G41', 'G42', 'G43'], keys: ['K'] },
 ]
 
 const asArray = (v) => (Array.isArray(v) ? v : [])
@@ -33,4 +36,4 @@ const makeTrigger = ({ name, ...config }) => {
 const triggers = {}
 triggerConfig.forEach(cfg => { triggers[cfg.name] = makeTrigger(cfg) })
 
-export const { SENSORENV, SENSORPLANT, ENVSETTH, WATER, PLANT, SYSSTART, CO2, waterLow, waterHigh } = triggers
+export const { SENSORENV, SENSORPLANT, ENVSETTH, WATER, PLANT, SYSSTART, CO2, waterLow, waterHigh, LightID, LightMode, LightK } = triggers
