@@ -3,7 +3,12 @@ import { mqttBroker, reqWrite, respWrite, main } from '../config.js';
 import { msgParser, respParser } from './parser.js';
 import { uuidRemove } from '../tools/uuidPool.js';
 import { updateDB } from './updateDB.js';
+
 import { syncData } from '../dataflow/sync.js';
+import { startStop } from '../dataflow/startStop.js';
+import { setTH } from '../dataflow/setTH.js';
+import { setValve } from '../dataflow/setValve.js';
+import { waterFill } from '../dataflow/waterFill.js';
 
 let client = null;
 
@@ -25,6 +30,10 @@ const handleMain = (msgString) => {
     try {
         // dataFlow 处理数据
         syncData(data);
+        startStop(data);
+        setTH(data);
+        setValve(data);
+        waterFill(data);
         updateDB(data);
     } catch (e) {
         console.error('更新数据失败:', e);

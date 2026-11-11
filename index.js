@@ -20,5 +20,6 @@ EH();
 ES();
 
 // system
+setTimeout(initMqtt, 10000);
 
-initMqtt();
+
