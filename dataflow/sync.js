@@ -19,7 +19,7 @@ function publish(msg) {
 }
 
 function syncEnv(data) {
-    const map = { CO2: 'CO2', PA1: 'PA1', PA2: 'PA2', T1: 'T6', H1: 'H6' }
+    const map = { CO2: 'CO2', PA1: 'PA1', PA2: 'PA2', T1: 'T6', H1: 'H6', O2: 'O2' }
     for (const [src, dst] of Object.entries(map)) {
         if (data.values?.[src] !== undefined) {
             publish(makeMsg(data, dst, data.values[src]))

@@ -7,7 +7,7 @@ import Database from 'better-sqlite3'; // 引入原生 SQLite 驱动，完美支
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-function startHttpServer(host = '0.0.0.0', port = 4001, rootDir = __dirname) {
+function startHttpServer(host = '0.0.0.0', port = 5001, rootDir = __dirname) {
     const server = http.createServer((req, res) => {
         let filePath = (req.url === '/' || req.url === './') ? './sqlite.html' : req.url;
         filePath = path.join(rootDir, filePath);
