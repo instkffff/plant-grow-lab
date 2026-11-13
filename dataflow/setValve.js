@@ -23,7 +23,8 @@ function setValve(data) {
     if (CO2(data)) {
         const { TSET, HSET, F } = getSystemSetting()
 
-        const CO2Value = data.values[CO2]
+        const CO2Value = data.values['CO2']
+        console.log(CO2Value)
 
         if (CO2Value > 1000) {
             newAirValve('W1', F*2)
