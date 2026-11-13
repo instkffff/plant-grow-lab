@@ -1,6 +1,6 @@
 const SENSOR = [
-    'CO2', 'CO2CAL', 'PA1', 'PA2',
-    'T1', 'H1', 'TCAL1', 'HCAL1'
+    'CO2', 'CO2CAL', 'PA1', 'PA2', 
+    'T1', 'H1', 'TCAL1', 'HCAL1', 'O2'
 ]
 
 const VALVE = [
@@ -67,7 +67,7 @@ const PLANT = [
 const ENV = [
     'H1', 'H2', 'H3', 'H4', 'H5', 'H6',
     'T1', 'T2', 'T3', 'T4', 'T5', 'T6',
-    'CO2', 'PA1', 'PA2'
+    'CO2', 'PA1', 'PA2', 'O2'
 ]
 
 const SETTING = [
