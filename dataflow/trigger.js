@@ -1,5 +1,5 @@
 const triggerConfig = [
-    { name: 'SENSORENV', nodes: ['NEWAIR'], groups: ['SENSOR'], keys: ['CO2', 'PA1', 'PA2', 'T1', 'T2', 'H1', 'H2'] },
+    { name: 'SENSORENV', nodes: ['NEWAIR'], groups: ['SENSOR'], keys: ['CO2', 'PA1', 'PA2', 'T1', 'T2', 'H1', 'H2', 'O2'] },
     { name: 'SENSORPLANT', nodes: ['COOLHUM'], groups: ['S1', 'S2', 'S3', 'S4', 'S5'], keys: ['T', 'H'] },
     { name: 'ENVSETTH', nodes: ['ENVSYSTEM'], groups: ['SETTING'], keys: ['TSET', 'HSET'] },
     { name: 'WATER', nodes: ['ENVSYSTEM'], groups: ['EQ'], keys: ['WASH1', 'WASH2', 'WASH3', 'WASH4', 'WASH5'] },
