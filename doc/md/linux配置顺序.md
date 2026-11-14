@@ -26,6 +26,11 @@ include_dir /etc/mosquitto/conf.d
 allow_anonymous true
 
 listener 1883 0.0.0.0
+protocol mqtt
+
+listener 9001 0.0.0.0
+protocol websockets
+
 ```
 
 - sudo systemctl restart mosquitto
