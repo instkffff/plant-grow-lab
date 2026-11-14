@@ -126,6 +126,7 @@ npm -v # Should print "11.19.0".
 - sudo apt install xwayland
 - sudo apt install foot
 - cage -- foot
+- sudo apt install -y libwebkit2gtk-4.1-0
 
 ### 9. Cage 服务
 
@@ -167,6 +168,7 @@ DefaultInstance=tty7
 
 - chmod +x /home/nightcandle/testapp （注意实际app路径）
 - sudo nano /etc/pam.d/cage
+- chmod 644 /etc/pam.d/cage
 
 ``` txt
 auth           required        pam_unix.so nullok
@@ -175,6 +177,7 @@ session        required        pam_unix.so
 session        required        pam_systemd.so
 ```
 
+- sudo usermod -aG video,input,render $USER
 - sudo systemctl daemon-reload
 - sudo systemctl start cage-tty@tty7.service
 
