@@ -40,7 +40,7 @@ function coolerClose(group) {
         node: "COOLHUM",
         group: group,
         tag: "ClOSE",
-        value: 0
+        value: 1
     }
     const msgobj = msgMaker(msg)
     try {
