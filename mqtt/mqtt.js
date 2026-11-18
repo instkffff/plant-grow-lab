@@ -9,6 +9,8 @@ import { startStop } from '../dataflow/startStop.js';
 import { setTH } from '../dataflow/setTH.js';
 import { setValve } from '../dataflow/setValve.js';
 import { waterFill } from '../dataflow/waterFill.js';
+import { lightBridge } from '../dataflow/lightBridge.js';
+
 
 let client = null;
 
@@ -34,6 +36,7 @@ const handleMain = (msgString) => {
         setTH(data);
         setValve(data);
         waterFill(data);
+        lightBridge(data);
         updateDB(data);
     } catch (e) {
         console.error('更新数据失败:', e);

@@ -4,6 +4,8 @@ import { startServer as PS } from './devices/plantLight/modbus/modbusSlave.js'
 import { startHttpServer as EH } from './devices/env/server.js'
 import { startServer as ES } from './devices/env/modbus/modbusSlave.js'
 
+import { wsInit, wsSend } from './ws/ws.js'
+
 import {
     initMqtt,
     mqttPublish,
@@ -21,4 +23,5 @@ ES();
 // system
 setTimeout(initMqtt, 10000);
 
-
+// WebSocket
+wsInit();
