@@ -39,11 +39,14 @@ const handleRead = (ws, data) => {
  */
 const handleWrite = (ws, data) => {
     const { node, group, tag, value } = data;
+    if (typeof value !== 'number') {
+        value = parseInt(value)
+    }
     const msg = {
         node: node,
         group: group,
         tag: tag,
-        value: parseInt(value)
+        value: value,
     }
     const msgobj = msgMaker(msg)
     try {
