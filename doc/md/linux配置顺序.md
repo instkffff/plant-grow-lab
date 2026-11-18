@@ -206,3 +206,8 @@ session        required        pam_systemd.so
 
 - git config --global --unset http.proxy （取消git全局代理）
 - git config --global --unset https.proxy （取消git全局代理）
+
+## 设置北京时间
+
+- sudo timedatectl set-timezone Asia/Shanghai
+- timedatectl
