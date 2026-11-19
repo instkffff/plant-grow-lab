@@ -1,0 +1,716 @@
+<mxfile host="65bd71144e">
+    <diagram id="Gglr281-PhX49b1h7VdP" name="第 1 页">
+        <mxGraphModel dx="3235" dy="2010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-16" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-1" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="微信小程序" vertex="1">
+                    <mxGeometry height="40" width="120" x="-80" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-7" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-2" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-26" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-2" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-27" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-2" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-21">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="400" y="100"/>
+                            <mxPoint x="400" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-31" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="400" y="100"/>
+                            <mxPoint x="400" y="340"/>
+                        </Array>
+                        <mxPoint x="350" y="100" as="sourcePoint"/>
+                        <mxPoint x="590" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-32" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-2" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-29">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="400" y="100"/>
+                            <mxPoint x="400" y="460"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-33" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-2" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-30">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="400" y="100"/>
+                            <mxPoint x="400" y="580"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="emqx neuron" vertex="1">
+                    <mxGeometry height="40" width="120" x="240" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-6" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-4" style="edgeStyle=none;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-20" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-4" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="控制系统" vertex="1">
+                    <mxGeometry height="40" width="120" x="240" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="植物灯系统" vertex="1">
+                    <mxGeometry height="40" width="120" x="240" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="恒温湿培养室" vertex="1">
+                    <mxGeometry height="40" width="120" x="600" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="mqtt" vertex="1">
+                    <mxGeometry height="30" width="120" x="80" y="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="动物室" vertex="1">
+                    <mxGeometry height="40" width="120" x="600" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="RS485 TCP" vertex="1">
+                    <mxGeometry height="30" width="120" x="240" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="modbus rtu over tcp" vertex="1">
+                    <mxGeometry height="30" width="120" x="440" y="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="动物房" vertex="1">
+                    <mxGeometry height="40" width="120" x="600" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="千级实验室" vertex="1">
+                    <mxGeometry height="40" width="120" x="600" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="万级实验室" vertex="1">
+                    <mxGeometry height="40" width="120" x="600" y="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="modbus tcp" vertex="1">
+                    <mxGeometry height="30" width="120" x="440" y="205" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="modbus tcp" vertex="1">
+                    <mxGeometry height="30" width="120" x="440" y="325" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="modbus tcp" vertex="1">
+                    <mxGeometry height="30" width="120" x="440" y="445" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="modbus tcp" vertex="1">
+                    <mxGeometry height="30" width="120" x="440" y="565" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-40" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-38" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-39">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-57" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-38" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-56">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-83" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-38" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-82">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="恒温湿培养室" vertex="1">
+                    <mxGeometry height="40" width="120" x="-80" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-42" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-39" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-41">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-46" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-39" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="新风系统" vertex="1">
+                    <mxGeometry height="40" width="120" x="120" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-44" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-41" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-43">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-73" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-41" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-72">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="新风机控制器" vertex="1">
+                    <mxGeometry height="40" width="120" x="320" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="新风机1" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-48" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-45" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-47">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-50" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-45" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-49">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-52" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-45" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-51">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-54" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-45" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-53">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-59" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-45" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-58">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="环境传感器" vertex="1">
+                    <mxGeometry height="40" width="120" x="320" y="840" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CO2" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="840" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-49" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="压差1" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="920" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="压差2" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1000" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="氧含量" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1080" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-61" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-56" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-60">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-63" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-56" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-62">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加热除湿系统" vertex="1">
+                    <mxGeometry height="40" width="120" x="120" y="1240" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="温湿度(缓冲间)" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1160" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-65" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-60" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-64">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-67" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-60" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-66">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-69" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-60" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-68">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S1" vertex="1">
+                    <mxGeometry height="40" width="120" x="320" y="1240" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-79" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-62" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-74">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-80" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-62" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-75">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-81" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-62" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-77">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S2" vertex="1">
+                    <mxGeometry height="40" width="120" x="320" y="1480" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="温控器1" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1240" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="除湿机1" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1320" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-71" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-68" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="隔断阀控制器1" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1400" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="隔断阀执行器1" vertex="1">
+                    <mxGeometry height="40" width="120" x="720" y="1400" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="新风机2" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="760" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-74" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="温控器2" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1480" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="除湿机2" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1560" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-76" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-77" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-78">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-77" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="隔断阀控制器2" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1640" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="隔断阀执行器2" vertex="1">
+                    <mxGeometry height="40" width="120" x="720" y="1640" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-85" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-82" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-84">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-110" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-82" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-123" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-82" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-115">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-136" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-82" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-128">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-149" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-82" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-141">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="制冷加湿系统" vertex="1">
+                    <mxGeometry height="40" width="120" x="120" y="1720" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-87" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-84" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-86">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-89" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-84" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-88">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-91" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-84" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-90">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-97" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-84" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-96">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S1" vertex="1">
+                    <mxGeometry height="40" width="120" x="320" y="1720" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="制冷机1" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1720" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-88" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机1" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1800" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-95" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-90" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-92">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-90" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机换水控制器1" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1880" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-93" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-92" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-88">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-92" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机上水1" vertex="1">
+                    <mxGeometry height="40" width="120" x="720" y="1800" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-96" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="温湿度1" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="1960" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-98" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-102" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-103">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-99" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-102" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-104">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-100" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-102" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-101" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-102" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-109">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-102" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S2" vertex="1">
+                    <mxGeometry height="40" width="120" x="320" y="2040" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-103" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="制冷机2" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="2040" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-104" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机2" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="2120" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-105" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-106" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-108">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机换水控制器2" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="2200" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-107" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-108" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-104">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-108" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机上水2" vertex="1">
+                    <mxGeometry height="40" width="120" x="720" y="2120" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-109" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="温湿度2" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="2280" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-111" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-115" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-116">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-112" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-115" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-117">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-113" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-115" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-119">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-114" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-115" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-122">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-115" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S3" vertex="1">
+                    <mxGeometry height="40" width="120" x="320" y="2360" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-116" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="制冷机3" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="2360" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-117" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机3" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="2440" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-118" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-119" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-121">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-119" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机换水控制器3" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="2520" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-120" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-121" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-117">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-121" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机上水3" vertex="1">
+                    <mxGeometry height="40" width="120" x="720" y="2440" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-122" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="温湿度3" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="2600" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-124" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-128" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-129">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-125" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-128" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-130">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-126" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-128" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-132">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-127" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-128" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-135">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-128" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S4" vertex="1">
+                    <mxGeometry height="40" width="120" x="320" y="2680" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="制冷机4" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="2680" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-130" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机4" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="2760" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-131" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-132" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-134">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机换水控制器4" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="2840" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-133" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-134" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-130">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-134" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机上水4" vertex="1">
+                    <mxGeometry height="40" width="120" x="720" y="2760" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="温湿度4" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="2920" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-137" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-141" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-142">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-138" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-141" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-143">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-139" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-141" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-145">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-140" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-141" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-148">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-141" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S5(接种室)" vertex="1">
+                    <mxGeometry height="40" width="120" x="320" y="3000" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-142" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="制冷机5" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="3000" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-143" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机5" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="3080" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-144" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-145" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-147">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-145" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机换水控制器5" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="3160" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-146" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-147" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-143">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-147" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="加湿机上水5" vertex="1">
+                    <mxGeometry height="40" width="120" x="720" y="3080" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-148" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="温湿度5" vertex="1">
+                    <mxGeometry height="40" width="120" x="520" y="3240" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-153" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-151" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-152">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-159" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-151" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-158">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-151" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="控制系统" vertex="1">
+                    <mxGeometry height="40" width="120" x="800" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-155" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-152" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-154">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-157" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-152" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-156">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-152" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="触摸屏UI" vertex="1">
+                    <mxGeometry height="40" width="120" x="1000" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-154" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="培养室环境" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-156" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="灯光控制" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-161" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-158" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-160">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-163" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-158" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-162">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-158" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="WIFI局域网管理系统" vertex="1">
+                    <mxGeometry height="40" width="120" x="1000" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-160" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="灯控配置" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-162" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="售后调试系统" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-166" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-164" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-165">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-168" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-164" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-167">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-170" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-164" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-169">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-172" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-164" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-171">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-174" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-164" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-173">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-164" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="微信小程序" vertex="1">
+                    <mxGeometry height="40" width="120" x="800" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-165" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="恒温湿培养室" vertex="1">
+                    <mxGeometry height="40" width="120" x="1000" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-167" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="动物室" vertex="1">
+                    <mxGeometry height="40" width="120" x="1000" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-169" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="千级实验室" vertex="1">
+                    <mxGeometry height="40" width="120" x="1000" y="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-171" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="万级实验室" vertex="1">
+                    <mxGeometry height="40" width="120" x="1000" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-173" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="灯光控制" vertex="1">
+                    <mxGeometry height="40" width="120" x="1000" y="720" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-177" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-175" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-176">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-215" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-175" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-199">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-235" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-175" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-219">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-249" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-175" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-239">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-175" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="植物灯系统" vertex="1">
+                    <mxGeometry height="40" width="120" x="800" y="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-179" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-176" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-178">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-182" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-176" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-180">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-183" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-176" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-181">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-176" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S1" vertex="1">
+                    <mxGeometry height="40" width="120" x="1000" y="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-186" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-178" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-184">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-187" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-178" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-185">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-178" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F1" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-190" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-180" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-188">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-191" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-180" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-189">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-180" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F2" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="960" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-194" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-181" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-192">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-195" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-181" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-193">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-181" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F3" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="1120" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-184" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RB" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="800" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-185" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="W" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="880" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-188" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RB" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="960" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-189" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="W" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="1040" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-192" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RB" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="1120" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-193" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="W" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="1200" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-196" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-199" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-202">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-197" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-199" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-205">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-198" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-199" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-208">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-199" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S2" vertex="1">
+                    <mxGeometry height="40" width="120" x="1000" y="1280" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-200" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-202" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-209">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-201" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-202" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-210">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-202" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F1" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="1280" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-203" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-205" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-211">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-204" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-205" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-212">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-205" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F2" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="1440" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-206" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-208" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="iRSGL55VcqjSLgM6sYde-213">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-207" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-208" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-214">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-208" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F3" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="1600" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-209" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RB" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="1280" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-210" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="W" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="1360" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-211" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RB" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="1440" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-212" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="W" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="1520" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-213" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="RB" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="1600" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-214" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="W" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="1680" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-216" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-219" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-222">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-217" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-219" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-225">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-218" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-219" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-228">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-219" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S3" vertex="1">
+                    <mxGeometry height="40" width="120" x="1000" y="1760" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-221" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-222" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-230">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-222" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F1" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="1760" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-224" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-225" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-232">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-225" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F2" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="1840" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-227" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-228" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-234">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-228" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F3" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="1920" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-230" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="W" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="1760" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-232" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="W" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="1840" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-234" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="W" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="1920" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-236" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-239" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-241">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-237" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-239" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-243">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-238" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-239" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-245">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-239" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="S4" vertex="1">
+                    <mxGeometry height="40" width="120" x="1000" y="2000" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-240" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-241" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-246">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-241" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F1" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="2000" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-242" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-243" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-247">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-243" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F2" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="2080" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-244" edge="1" parent="1" source="iRSGL55VcqjSLgM6sYde-245" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iRSGL55VcqjSLgM6sYde-248">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-245" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="F3" vertex="1">
+                    <mxGeometry height="40" width="120" x="1200" y="2160" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-246" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="W" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="2000" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-247" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="W" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="2080" as="geometry"/>
+                </mxCell>
+                <mxCell id="iRSGL55VcqjSLgM6sYde-248" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="W" vertex="1">
+                    <mxGeometry height="40" width="120" x="1400" y="2160" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
