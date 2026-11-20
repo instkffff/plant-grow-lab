@@ -10,9 +10,9 @@ port: 30000
 ```json
 {
     "func": "read",
-    "tableName": "PLANT",
-    "name": "G11",
-    "key": "Y"
+    "node": "PLANT",
+    "group": "G11",
+    "tag": "Y"
 }
 ```
 
@@ -21,9 +21,9 @@ response:
 ```json
 {
     "func": "read",
-    "tableName": "PLANT",
-    "name": "G11",
-    "key": "Y",
+    "node": "PLANT",
+    "group": "G11",
+    "tag": "Y",
     "value": 100
 }
 ```

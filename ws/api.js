@@ -6,9 +6,9 @@ import { msgMaker } from '../mqtt/msgMaker.js';
 /* 
 {
     "func": "read",
-    "tableName": "PLANT",
-    "name": "G11",
-    "key": "Y"
+    "node": "PLANT",
+    "group": "G11",
+    "tag": "Y"
 } 
 */
 
@@ -17,10 +17,10 @@ import { msgMaker } from '../mqtt/msgMaker.js';
  * @param {Object} data - 请求数据
  */
 const handleRead = (ws, data) => {
-    const { tableName, name, key } = data;
-    const value = getValue(tableName, name, key);
-    wsSend(ws, { func: 'read', tableName, name, key, value });
-    console.log('read:', tableName, name, key, value);
+    const { node, group, tag } = data;
+    const value = getValue(node, group, tag);
+    wsSend(ws, { func: 'read', node, group, tag, value });
+    console.log('read:', node, group, tag, value);
 };
 
 /* 
