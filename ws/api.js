@@ -38,10 +38,9 @@ const handleRead = (ws, data) => {
  * @param {Object} data - 请求数据
  */
 const handleWrite = (ws, data) => {
-    const { node, group, tag, value } = data;
-    if (typeof value !== 'number') {
-        value = parseInt(value)
-    }
+    let { node, group, tag, value } = data;
+
+    console.log(value);
     const msg = {
         node: node,
         group: group,
