@@ -32,12 +32,12 @@ const handleMain = (msgString) => {
     try {
         // dataFlow 处理数据
         syncData(data);
+        updateDB(data);
         startStop(data);
         setTH(data);
         setValve(data);
         waterFill(data);
         lightBridge(data);
-        updateDB(data);
     } catch (e) {
         console.error('更新数据失败:', e);
     }
